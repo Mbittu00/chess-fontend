@@ -1,0 +1,14 @@
+.board{
+	position: relative;
+}.Play{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	
+}.Play>center>span{
+	font-size: 30px;
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	position: absolute;
+	margin-left: -35px;
+}

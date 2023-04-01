@@ -1,0 +1,39 @@
+.modal{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80vw;
+padding: 10px 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 100px;
+		/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}.modal>span{
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}.modal>img{
+	width: 130px;
+}.rbtn>button{
+	background: transparent;
+	width: 80px;
+	height: 35px;
+	border-radius: 20px;
+	border: 1px solid white;
+	color: white;
+	text-transform: capitalize;
+}.rbtn{
+	display: flex;
+	gap: 10px;
+}
