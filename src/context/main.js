@@ -3,7 +3,7 @@ import {io} from 'socket.io-client'
 import {useState,useEffect}from'react'
 import { v4 as uuidv4 } from 'uuid';
 import Uid from'../uid'
-let socket=io('http://localhost:8900')
+let socket=io('https://chass.adaptable.app/')
   const Main = ({children}) => {
 	let [token,setToken]=useState('')
 	let [game,setGame]=useState({})
